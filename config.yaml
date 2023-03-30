@@ -1,0 +1,60 @@
+training_trials: [{step_down_acc: 0, step_down_time: 0, step_up_acc: 0, step_up_time: 0, n_congruent: 8, n_incongruent: 4, n_neutral: 0}]
+
+experiment_trials: [{step_down_acc: 15, step_down_time: 90, step_up_acc: 14, step_up_time: 270, n_congruent: 12, n_incongruent: 6, n_neutral: 0},
+                    {step_down_acc: 15, step_down_time: 90, step_up_acc: 14, step_up_time: 270, n_congruent: 12, n_incongruent: 6, n_neutral: 0},
+                    {step_down_acc: 15, step_down_time: 90, step_up_acc: 14, step_up_time: 270, n_congruent: 12, n_incongruent: 6, n_neutral: 0},
+                    {step_down_acc: 15, step_down_time: 90, step_up_acc: 14, step_up_time: 270, n_congruent: 12, n_incongruent: 6, n_neutral: 0},
+                    {step_down_acc: 15, step_down_time: 90, step_up_acc: 14, step_up_time: 270, n_congruent: 12, n_incongruent: 6, n_neutral: 0},
+                    {step_down_acc: 15, step_down_time: 90, step_up_acc: 14, step_up_time: 270, n_congruent: 12, n_incongruent: 6, n_neutral: 0},
+
+                    {step_down_acc: 15, step_down_time: 30, step_up_acc: 14, step_up_time: 90, n_congruent: 12, n_incongruent: 6, n_neutral: 0},
+                    {step_down_acc: 15, step_down_time: 30, step_up_acc: 14, step_up_time: 90, n_congruent: 12, n_incongruent: 6, n_neutral: 0},
+                    {step_down_acc: 15, step_down_time: 30, step_up_acc: 14, step_up_time: 90, n_congruent: 12, n_incongruent: 6, n_neutral: 0},
+                    {step_down_acc: 15, step_down_time: 30, step_up_acc: 14, step_up_time: 90, n_congruent: 12, n_incongruent: 6, n_neutral: 0},
+                    {step_down_acc: 15, step_down_time: 30, step_up_acc: 14, step_up_time: 90, n_congruent: 12, n_incongruent: 6, n_neutral: 0},
+                    {step_down_acc: 15, step_down_time: 30, step_up_acc: 14, step_up_time: 90, n_congruent: 12, n_incongruent: 6, n_neutral: 0},
+                    {step_down_acc: 15, step_down_time: 30, step_up_acc: 14, step_up_time: 90, n_congruent: 12, n_incongruent: 6, n_neutral: 0},
+                    {step_down_acc: 15, step_down_time: 30, step_up_acc: 14, step_up_time: 90, n_congruent: 12, n_incongruent: 6, n_neutral: 0},
+                    {step_down_acc: 15, step_down_time: 30, step_up_acc: 14, step_up_time: 90, n_congruent: 12, n_incongruent: 6, n_neutral: 0},
+                    {step_down_acc: 15, step_down_time: 30, step_up_acc: 14, step_up_time: 90, n_congruent: 12, n_incongruent: 6, n_neutral: 0},
+                    {step_down_acc: 15, step_down_time: 30, step_up_acc: 14, step_up_time: 90, n_congruent: 12, n_incongruent: 6, n_neutral: 0},
+                    {step_down_acc: 15, step_down_time: 30, step_up_acc: 14, step_up_time: 90, n_congruent: 12, n_incongruent: 6, n_neutral: 0}]
+
+                    # step_down_acc if the participant was accurate on at least n trials within each block
+                    # step_up_acc increased (more time to respond) if their accuracy rate was below that
+
+# time
+start_trial_time: 1230
+minimal_time: 150
+wait_time: [400, 700]
+
+# visual
+screen_color: grey
+text_color: black
+text_size: 28
+
+stim_size: 40
+stim_pos: [0, 0]
+
+# Stroop
+word_bank: [{word: CZERWONY,  color: red,       key: n},
+            {word: NIEBIESKI, color: '#5e75d9', key: x},
+            {word: ŻÓŁTY,     color: yellow,    key: m},
+            {word: ZIELONY,   color: green,     key: z}]
+
+
+# show extra text during trial
+extra_text_to_show: [{pos: [-225, -270], color: black, size: 20, text: "ZIELONY"},
+                     {pos: [-75, -270], color: black, size: 20, text: "NIEBIESKI"},
+                     {pos: [75, -270], color: black, size: 20, text: "CZERWONY"},
+                     {pos: [225, -270], color: black, size: 20, text: "ŻÓŁTY"}]
+
+# feedback
+fdbk_training: True
+fdbk_experiment: False
+fdbk_correct: Poprawna odpowiedź
+fdbk_incorrect: Błędna odpowiedź
+fdbk_no_answer: Brak odpowiedzi
+fdbk_show_time: 2000
+fdbk_color: black
+fdbk_size: 56
