@@ -1,13 +1,11 @@
 Teraz nastąpi właściwy test.
-Zmiana w stosunku do treningu jest taka, że zamiast napisów HHHHHH, wyświetlane będą słowa
-oznaczające kolory (np. ZIELONY, CZERWONY).
-Nie otrzymasz też informacji, czy popełniłeś błąd.
+Nie otrzymasz już informacji, czy popełniłeś błąd.
 Pamiętaj: rozpoznawaj wyłącznie KOLOR, ignorując treść słowa.
-Naciskaj klawisz:
-* Z, gdy wyświetlono napis w kolorze ZIELONYM;
-* X, gdy wyświetlono napis w kolorze NIEBIESKIM;
-* N, gdy wyświetlono napis w kolorze CZERWONYM;
-* M, gdy wyświetlono napis w kolorze ŻÓŁTYM.
+Naciskaj:
+klawisz Z, gdy wyświetlono napis w kolorze ZIELONYM;
+klawisz X, gdy wyświetlono napis w kolorze NIEBIESKIM;
+klawisz N, gdy wyświetlono napis w kolorze CZERWONYM;
+klawisz M, gdy wyświetlono napis w kolorze ŻÓŁTYM.
 Połóż palce lewej ręki na klawiszach Z i X, a prawej - na klawiszach N i M.
 Podpowiedź na dole ekranu będzie przypominać Ci o przypisaniu kolorów do klawiszy.
 Pamiętaj, rozpoznawaj wyłącznie kolory, ignorując treść słów.
