@@ -26,7 +26,7 @@ experiment_trials: [{step_down_acc: 15, step_down_time: 90, step_up_acc: 14, ste
 # time
 start_trial_time: 1230
 minimal_time: 150
-wait_time: [400, 700]
+wait_time: [1400, 1700]
 
 # visual
 screen_color: grey
@@ -55,6 +55,6 @@ fdbk_experiment: False
 fdbk_correct: Poprawna odpowiedź
 fdbk_incorrect: Błędna odpowiedź
 fdbk_no_answer: Brak odpowiedzi
-fdbk_show_time: 2000
+fdbk_show_time: 1500
 fdbk_color: black
-fdbk_size: 56
+fdbk_size: 40

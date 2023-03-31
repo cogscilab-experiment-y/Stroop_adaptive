@@ -27,6 +27,7 @@ def save_beh_results():
 
 def run_block(trials_list, config, win, experiment_part_type, block_idx, trial_time, extra_text, feedback):
     global N, RESULTS
+    clock_test = core.Clock()
     reaction_keys = [word["key"] for word in config["word_bank"]]
     clock = core.Clock()
     block_acc = 0
@@ -38,7 +39,9 @@ def run_block(trials_list, config, win, experiment_part_type, block_idx, trial_t
 
         [text.setAutoDraw(True) for text in extra_text]
         stim.setAutoDraw(True)
+        win.callOnFlip(event.clearEvents)
         win.callOnFlip(clock.reset)
+        win.callOnFlip(clock_test.reset)
         win.flip()
 
         while clock.getTime() < trial_time/1000:
@@ -49,11 +52,12 @@ def run_block(trials_list, config, win, experiment_part_type, block_idx, trial_t
                 break
             check_exit()
             win.flip()
-
+        print(trial_time / 1000, clock_test.getTime())
         [text.setAutoDraw(False) for text in extra_text]
         stim.setAutoDraw(False)
         win.callOnFlip(event.clearEvents)
         win.flip()
+
 
         if answer is not None:
             acc = 1 if answer == trial["key"] else 0
@@ -76,6 +80,9 @@ def run_block(trials_list, config, win, experiment_part_type, block_idx, trial_t
 
         if experiment_part_type == "training":
             show_stim(feedback[acc], config["fdbk_show_time"], clock, win)
+        elif acc == -1:
+            show_stim(feedback[acc], config["fdbk_show_time"], clock, win)
+
 
         wait_time = random.randint(config["wait_time"][0], config["wait_time"][0])
         show_stim(None, wait_time, clock, win)
