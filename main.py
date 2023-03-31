@@ -52,7 +52,7 @@ def run_block(trials_list, config, win, experiment_part_type, block_idx, trial_t
                 break
             check_exit()
             win.flip()
-        print(trial_time / 1000, clock_test.getTime())
+        # print(trial_time / 1000, clock_test.getTime())
         [text.setAutoDraw(False) for text in extra_text]
         stim.setAutoDraw(False)
         win.callOnFlip(event.clearEvents)
