@@ -6,7 +6,7 @@ had a response deadline that limited how long the participant had to respond bef
 beep and forfeited the opportunity to respond on that trial. This response deadline either decreased
 (less time to respond) if the participant was accurate on at least 15 trials within each block or increased
 (more time to respond) if their accuracy rate was below that. The first block had a response deadline of
-1,230 ms. For the first six blocks, the response deadline either decreased by 90 ms or increased by 270
+1230 ms. For the first six blocks, the response deadline either decreased by 90 ms or increased by 270
 ms for the next block, again depending on whether the participant was accurate on at least 15 of the 18
 trials. For subsequent blocks, the response deadline either decreased by 30 ms or increased by 90 ms.
 The stimuli remained on the screen until the response deadline. Each block had 12 congruent and six
