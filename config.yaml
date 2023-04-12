@@ -29,8 +29,8 @@ minimal_time: 150
 wait_time: [1400, 1700]
 
 # visual
-screen_color: grey
-text_color: black
+screen_color: black
+text_color: white
 text_size: 28
 
 stim_size: 40
@@ -44,10 +44,10 @@ word_bank: [{word: CZERWONY,  color: red,       key: n},
 
 
 # show extra text during trial
-extra_text_to_show: [{pos: [-225, -270], color: black, size: 20, text: "ZIELONY"},
-                     {pos: [-75, -270], color: black, size: 20, text: "NIEBIESKI"},
-                     {pos: [75, -270], color: black, size: 20, text: "CZERWONY"},
-                     {pos: [225, -270], color: black, size: 20, text: "ŻÓŁTY"}]
+extra_text_to_show: [{pos: [-225, -270], color: white, size: 24, text: "ZIELONY"},
+                     {pos: [-75, -270], color: white, size: 24, text: "NIEBIESKI"},
+                     {pos: [75, -270], color: white, size: 24, text: "CZERWONY"},
+                     {pos: [225, -270], color: white, size: 24, text: "ŻÓŁTY"}]
 
 # feedback
 fdbk_training: True
@@ -56,5 +56,5 @@ fdbk_correct: Poprawna odpowiedź
 fdbk_incorrect: Błędna odpowiedź
 fdbk_no_answer: Brak odpowiedzi
 fdbk_show_time: 1500
-fdbk_color: black
+fdbk_color: white
 fdbk_size: 40
