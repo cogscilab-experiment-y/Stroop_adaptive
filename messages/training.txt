@@ -1,10 +1,16 @@
-Twoim zadaniem będzie rozpoznawanie koloru słów, które również oznaczają kolory. Naciskaj:
+Twoim zadaniem będzie rozpoznawanie koloru słów, które również oznaczają kolory. 
+
+Naciskaj:
 klawisz Z, gdy wyświetlono napis w kolorze ZIELONYM,
 klawisz X gdy wyświetlono napis w kolorze NIEBIESKIM,
 klawisz N gdy wyświetlono napis w kolorze CZERWONYM,
 klawisz M gdy wyświetlono napis w kolorze ŻÓŁTYM.
+
 Pamiętaj: rozpoznawaj wyłącznie KOLOR, ignorując treść słowa.
 Program poinformuje Cię, jeśli popełnisz błąd.
+
 Połóż palce lewej ręki na klawiszach Z i X, a prawej - na klawiszach N i M.
 Podpowiedź na dole ekranu będzie przypominać Ci o przypisaniu kolorów do klawiszy.
+
+Teraz nastąpi TRENING, w którym otrzymasz informacji o poprawności swoich odpowiedzi.
 Jeśli jesteś gotowy, wciśnij SPACJĘ.
